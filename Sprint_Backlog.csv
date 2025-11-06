@@ -1,0 +1,9 @@
+﻿Sprint Goal,User Story,Task,Assigned To,Status,Notes
+Sprint 1 Goal: Log in & Registration,"As, a user I want to login","Design the login layout,  handle button clicks, Implement login logic to check credentials", Fahad Rahman,To Do,Must load login-view.fxml and set up the JavaFX Stage
+Sprint 1 Goal: Log in & Registration,"As a Student, I want to see a dashboard","Design dashboard layout, load events",Fahad Rahman,To Do,"ListView for events, create initData, prevent duplicates"
+Sprint 1 Goal: Log in & Registration,"As a Student, I want to register for an event","Add ""Register"" button, logic to check for event capacity and existing registrations",Fahad Rahman,To Do,"Prevent duplicates, new controller class"
+Sprint 2 Goal: Student Event Creation,"As a Student, I want to create my own event","Add ""Create New Event"" button, design popup form, check availability",Fahad Rahman,To Do,"Update .fxml, new controller"
+Sprint 2 Goal: Student Event Creation,"""As a user, I want the app to remember",Add new event and store,Fahad Rahman,To Do,New events should be public
+Sprint 3 Goal: Organizer Dashboard & Event Mgt,"As an Organizer, I want to see my dashboard","Design layout, populate dashboard",Fahad Rahman,To Do,"Have a ListView, filter events"
+Sprint 3 Goal: Organizer Dashboard & Event Mgt,"As an Organizer, I want to cancel an event","Add ""Cancel Event"" button, Refresh the event list and save changes ",Fahad Rahman,To Do,Connection button in fxml
+Sprint 3 Goal: Organizer Dashboard & Event Mgt,"As an Organizer, I want to see who registered","Add ""View Registrations"" button, design popup window, sgow student names",Fahad Rahman,To Do,New fxml
