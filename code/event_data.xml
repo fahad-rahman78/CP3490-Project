@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="25.0.1" class="java.beans.XMLDecoder">
+ <object class="com.eventsystem.storage.EventDatabase" id="EventDatabase0">
+  <void property="administrators">
+   <void method="add">
+    <object class="com.eventsystem.model.Administrator">
+     <void property="email">
+      <string>admin@campus.com</string>
+     </void>
+     <void property="name">
+      <string>Admin Chris</string>
+     </void>
+     <void property="passwordHash">
+      <string>admin123</string>
+     </void>
+     <void property="userID">
+      <string>A1</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="events">
+   <void method="add">
+    <object class="com.eventsystem.model.Event" id="Event0">
+     <void property="capacity">
+      <int>100</int>
+     </void>
+     <void property="description">
+      <string>A talk on Java</string>
+     </void>
+     <void property="endTime">
+      <object class="java.util.Date" id="Date0">
+       <long>1764638592308</long>
+      </object>
+     </void>
+     <void property="eventID">
+      <string>E1764634992309</string>
+     </void>
+     <void property="organizer">
+      <object class="com.eventsystem.model.EventOrganizer" id="EventOrganizer0">
+       <void property="createdEvents">
+        <void method="add">
+         <object idref="Event0"/>
+        </void>
+        <void method="add">
+         <object class="com.eventsystem.model.Event" id="Event1">
+          <void property="capacity">
+           <int>2</int>
+          </void>
+          <void property="description">
+           <string>A coding competition</string>
+          </void>
+          <void property="endTime">
+           <object class="java.util.Date">
+            <long>1764645792308</long>
+           </object>
+          </void>
+          <void property="eventID">
+           <string>E1764634992310</string>
+          </void>
+          <void property="organizer">
+           <object idref="EventOrganizer0"/>
+          </void>
+          <void property="registrations">
+           <void method="add">
+            <object class="com.eventsystem.model.Registration" id="Registration0">
+             <void property="event">
+              <object idref="Event1"/>
+             </void>
+             <void property="registrationID">
+              <string>R-1764640722030</string>
+             </void>
+             <void property="student">
+              <object class="com.eventsystem.model.Student" id="Student0">
+               <void property="email">
+                <string>fahad.rahman1124@gmail.com</string>
+               </void>
+               <void property="name">
+                <string>Fahad Rahman</string>
+               </void>
+               <void property="passwordHash">
+                <string>20193878</string>
+               </void>
+               <void property="registrations">
+                <void method="add">
+                 <object idref="Registration0"/>
+                </void>
+                <void method="add">
+                 <object class="com.eventsystem.model.Registration" id="Registration1">
+                  <void property="event">
+                   <object idref="Event0"/>
+                  </void>
+                  <void property="registrationID">
+                   <string>R-1764695944219</string>
+                  </void>
+                  <void property="student">
+                   <object idref="Student0"/>
+                  </void>
+                  <void property="timestamp">
+                   <object class="java.util.Date">
+                    <long>1764695944220</long>
+                   </object>
+                  </void>
+                 </object>
+                </void>
+                <void method="add">
+                 <object class="com.eventsystem.model.Registration" id="Registration2">
+                  <void property="event">
+                   <object class="com.eventsystem.model.Event" id="Event2">
+                    <void property="capacity">
+                     <int>10</int>
+                    </void>
+                    <void property="description">
+                     <string>SWE Term test</string>
+                    </void>
+                    <void property="endTime">
+                     <object class="java.util.Date">
+                      <long>1765218600000</long>
+                     </object>
+                    </void>
+                    <void property="eventID">
+                     <string>E1764699676567</string>
+                    </void>
+                    <void property="organizer">
+                     <object idref="EventOrganizer0"/>
+                    </void>
+                    <void property="registrations">
+                     <void method="add">
+                      <object idref="Registration2"/>
+                     </void>
+                    </void>
+                    <void property="room">
+                     <object class="com.eventsystem.model.Room" id="Room0">
+                      <void property="bookings">
+                       <void method="add">
+                        <object idref="Event2"/>
+                       </void>
+                      </void>
+                      <void property="capacity">
+                       <int>30</int>
+                      </void>
+                      <void property="location">
+                       <string>RR</string>
+                      </void>
+                      <void property="name">
+                       <string>Computer-328</string>
+                      </void>
+                      <void property="roomID">
+                       <string>R-1764699031550</string>
+                      </void>
+                     </object>
+                    </void>
+                    <void property="startTime">
+                     <object class="java.util.Date">
+                      <long>1765207800000</long>
+                     </object>
+                    </void>
+                    <void property="status">
+                     <string>Active</string>
+                    </void>
+                    <void property="title">
+                     <string>Term Test</string>
+                    </void>
+                   </object>
+                  </void>
+                  <void property="registrationID">
+                   <string>R-1764699751248</string>
+                  </void>
+                  <void property="student">
+                   <object idref="Student0"/>
+                  </void>
+                  <void property="timestamp">
+                   <object class="java.util.Date">
+                    <long>1764699751249</long>
+                   </object>
+                  </void>
+                 </object>
+                </void>
+               </void>
+               <void property="studentID">
+                <string>20193878</string>
+               </void>
+               <void property="userID">
+                <string>20193878</string>
+               </void>
+              </object>
+             </void>
+             <void property="timestamp">
+              <object class="java.util.Date">
+               <long>1764640722031</long>
+              </object>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="room">
+           <object class="com.eventsystem.model.Room">
+            <void property="capacity">
+             <int>2</int>
+            </void>
+            <void property="location">
+             <string>Building B</string>
+            </void>
+            <void property="name">
+             <string>Computer Lab</string>
+            </void>
+            <void property="roomID">
+             <string>R205</string>
+            </void>
+           </object>
+          </void>
+          <void property="startTime">
+           <object idref="Date0"/>
+          </void>
+          <void property="status">
+           <string>Cancelled</string>
+          </void>
+          <void property="title">
+           <string>Code Jam</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object idref="Event2"/>
+        </void>
+       </void>
+       <void property="email">
+        <string>fahad@campus.com</string>
+       </void>
+       <void property="name">
+        <string>Fahad</string>
+       </void>
+       <void property="passwordHash">
+        <string>pass123</string>
+       </void>
+       <void property="userID">
+        <string>O1</string>
+       </void>
+      </object>
+     </void>
+     <void property="registrations">
+      <void method="add">
+       <object idref="Registration1"/>
+      </void>
+     </void>
+     <void property="room">
+      <object class="com.eventsystem.model.Room" id="Room1">
+       <void property="capacity">
+        <int>100</int>
+       </void>
+       <void property="location">
+        <string>Building A</string>
+       </void>
+       <void property="name">
+        <string>Main Hall</string>
+       </void>
+       <void property="roomID">
+        <string>R101</string>
+       </void>
+      </object>
+     </void>
+     <void property="startTime">
+      <object class="java.util.Date">
+       <long>1764634992308</long>
+      </object>
+     </void>
+     <void property="status">
+      <string>Cancelled</string>
+     </void>
+     <void property="title">
+      <string>Java Tech Talk</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object idref="Event1"/>
+   </void>
+   <void method="add">
+    <object idref="Event2"/>
+   </void>
+  </void>
+  <void property="organizers">
+   <void method="add">
+    <object idref="EventOrganizer0"/>
+   </void>
+  </void>
+  <void property="rooms">
+   <void method="add">
+    <object idref="Room1"/>
+   </void>
+   <void method="add">
+    <object idref="Room0"/>
+   </void>
+  </void>
+  <void property="students">
+   <void method="add">
+    <object class="com.eventsystem.model.Student">
+     <void property="email">
+      <string>fahad.rahman78@ed.cna.nl.ca</string>
+     </void>
+     <void property="name">
+      <string>Fahad Rahman</string>
+     </void>
+     <void property="passwordHash">
+      <string>12345</string>
+     </void>
+     <void property="studentID">
+      <string>20193878</string>
+     </void>
+     <void property="userID">
+      <string>20193878</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object idref="Student0"/>
+   </void>
+  </void>
+ </object>
+</java>
